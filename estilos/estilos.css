@@ -1,3 +1,10 @@
+/*resetar CSS do meu projeto*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --cor-principal: blue;
     --tamanho-espacamento: 1rem;
@@ -16,18 +23,23 @@ nav a {
 
 h1 {
     color: var(--cor-principal);
+
 }
 
 main {
-    max-width: 840px;
+    max-width: 100%;
 }
 
 main img {
     width: 150px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right !important;
 }
 
 p {
@@ -36,13 +48,9 @@ p {
 
 aside {
     width: 20rem;
-    margin: var(--tamanho-espacamento);
-    border: 2px solid rgb(0 0 0 / 0.2);
-    padding: var(--tamanho-espacamento);
-    background-color: #eee;
     color: #333;
     text-align: center;
-
+    position: relative;
 }
 
 aside img {
@@ -50,8 +58,23 @@ aside img {
     height: auto;
 }
 
+
+
 footer {
     margin-top: var(--tamanho-espacamento);
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* seletores de classes */
+.caixa {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #eee
+
+}
+
+.indentacao{
+    padding-left: 2rem;
 }
