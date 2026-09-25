@@ -18,16 +18,16 @@ nav {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 5px;
+    text-decoration: none;
 }
 
 h1 {
     color: var(--cor-principal);
 
 }
-
-main {
-    max-width: 100%;
+main{
+    padding: 1rem;
 }
 
 main img {
@@ -35,11 +35,25 @@ main img {
     margin-left: 10px;
     margin-bottom: 10px;
     margin-right: 20px;
+    margin-top: 8px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right !important;
+}
+
+main h1 {
+    border-bottom: 1px solid blue
+}
+main p {
+    margin-top: 8px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 p {
@@ -51,14 +65,14 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    margin: 20px;
+
 }
 
 aside img {
     width: 200px;
     height: auto;
 }
-
-
 
 footer {
     margin-top: var(--tamanho-espacamento);
@@ -72,9 +86,26 @@ footer {
     margin: 1rem;
     padding: 1rem;
     background-color: #eee
-
 }
 
 .indentacao{
     padding-left: 2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid aside {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.grid main {
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
 }
