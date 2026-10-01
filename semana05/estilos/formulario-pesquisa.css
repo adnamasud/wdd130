@@ -85,7 +85,7 @@ button {
     font-size: .8rem;
 }
 button:hover {
-    background-color: darkgreen;
+    background-color: darkgreen
 }
 footer{
     margin: 1rem auto 0;
