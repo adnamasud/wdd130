@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Em busca de aventuras? Fale com nossa equipe, tire suas duvidas e conheça nossas opções de rafting.">
+    <title>Fale Conosco | Aventuras do Rio</title>
+    
+    <meta name="author" content="Amanda de Souza Silva">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+<body class="pagina-contato">
+    <header>
+        <img src="imagens/z-raftingcompas.png" alt="Logo Rafting">
+        <nav>
+            <ul>
+                <li><a  href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main class="pagina-contato">
+        <h1>Fale Conosco | Aventuras do Rio</h1>
+        <section class="contato">
+            <h2>Informações de contato</h2>
+            <p>123 Rio Abaixo, Marabá, Pará</p>
+            <p>(94)99999-9999</p>
+            <p>contato@aventurasdorio.com</p>
+        </section>
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15888.914172553732!2d-49.11203235!3d-5.3820896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1790966994556!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+        <section class="formulario">
+            <h2>Entrem em contato</h2>
+            <form> 
+                
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="e-mail">E-mail:</label>
+                <input type="email" id="e-mail" name="e-mail" required>
+
+                <fieldset>
+                    <legend>Qual o propósito do seu contato?</legend>
+
+                    <label>
+                        <input type="radio" name="contato" value="consulta" required>
+                        Consulta Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contato" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="contato" value="sugestao">
+                        Sugestão de Site
+                    </label>
+                </fieldset>
+                 
+                <label for="mensagem">Deixe-nos uma mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="6" required> </textarea>
+
+                <label><input type="checkbox" name="newsletter" value="sim">Quero receber a newsletter mensal</label>
+
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
+
+        </section>
+        <section class="equipe">
+            <h2>Nossa Equipe</h2>
+            <figure>
+                <img src="imagens/rafting1.jpg" alt="Funcionario praticando rafting">
+                <figcaption>João Silva - Guia de Rafting</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/rafting4.jpg" alt="Salva-vidas da Equipe de rafting">
+                <figcaption>Pedro Nunes - Salva-vidas</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/rafting3.jpg" alt="Funcionario praticando rafting">
+                <figcaption>Maria Gabriela - instrutora</figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p> ©2026 Aventuras do Rio | Amanda de Souza Silva </p>
+        <nav class="redes-sociais socialmedia">
+            <a href="#">
+                <img src="imagens/facebook.svg" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="imagens/instagram.svg" alt="Instagram">
+            </a>
+            <a href="#">
+                <img src="imagens/whatsapp.svg" alt="WhatsApp">
+            </a>
+        </nav>
+
+    </footer>
+    
+</body>
+</html>
