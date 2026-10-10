@@ -45,7 +45,9 @@ nav, p, section, article {
 }
 nav ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    list-style: none;
+
 }
 nav a {
     text-decoration: none;
@@ -369,4 +371,21 @@ form textarea {
         width: 100%;
         margin: 0;
     }
+}
+@media (max-width: 600px) {
+    .historia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .tabela-passeios th, .tabela-passeios td {
+    padding: 5px;
+    font-size: 12px;
+    overflow-wrap: break-word;
+}
 }
